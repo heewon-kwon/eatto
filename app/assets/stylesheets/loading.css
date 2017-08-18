@@ -1,0 +1,99 @@
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 650px
+}
+
+/*#slide{*/
+/*   position: absolute;*/
+/*    left: -100px;*/
+/*    width: 100px;*/
+/*    height: 100px;*/
+/*    background: blue;*/
+/*    -webkit-animation: slide 0.5s forwards;*/
+/*    -webkit-animation-delay: 2s;*/
+/*    animation: slide 0.5s forwards;*/
+/*    animation-delay: 2s;*/
+/*}*/
+
+/*@-webkit-keyframes slide {*/
+/*    100% { left: 0; }*/
+/*}*/
+
+/*@keyframes slide {*/
+/*    100% { left: 0; }*/
+/*}*/
+  
+
+
+.div{ 
+    position: absolute;
+    top: 80%;
+    left: 80%;
+    margin-top: -50px;
+    margin-left: -50px;
+    width: 100px;
+    height: 100px;
+}
+
+
+.ball {
+  width: 65px;
+  height: 65px;
+  border-radius: 30px;
+  display: inline-block;
+  margin: 0 10px;
+  
+  animation: 2s bounce ease infinite;
+}
+
+.blue {
+  background-color: #4285F5;
+  text-align: center;
+  font-size: 50px;
+  font-style: oblique;
+  font-weight:bold;
+  line-height: 21px;
+  
+  
+}
+
+.red {
+  background-color: #EA4436;
+  text-align: center;
+  font-size: 50px;
+  font-style: oblique;
+  font-weight:bold;
+  animation-delay: .25s;
+}
+
+.yellow {
+  background-color: #FBBD06;
+  text-align: center;
+  font-style:oblique;
+  font-size: 50px;
+  font-weight:bold;
+  animation-delay: .5s;
+}
+
+.green {
+  background-color: #34A952;
+  text-align:center;
+  font-style:oblique;
+  font-size: 50px;
+  font-weight:bold;
+  animation-delay: .85s;
+}
+
+.loading{
+     text-align:left;
+     font-style:oblique;
+}
+@keyframes bounce {  
+    70% {
+       transform: translateY(23px);
+  }
+
+}
